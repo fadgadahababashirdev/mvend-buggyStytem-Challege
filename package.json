@@ -4,7 +4,7 @@
   "description": "Buggy System",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,8 @@
   "dependencies": {
     "body-parser": "^1.20.3",
     "express": "^4.21.0",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.7",
+    "postgres": "^3.4.5"
   }
 }
